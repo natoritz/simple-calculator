@@ -1,5 +1,3 @@
-# Installation
-
 # Ubuntu/Debian
 1. Buka terminal
 2. Jalankan perintah berikut:
