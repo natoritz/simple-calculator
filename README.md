@@ -1,17 +1,22 @@
-# Ubuntu/Debian
-1. Buka terminal
-2. Jalankan perintah berikut:
-- sudo apt-get update
-- sudo apt-get install python3-tk
+# Simple Calculator
 
-# Fedora
-1. Buka terminal
-2. Jalankan perintah berikut:
-- sudo dnf install python3-tkinter
+A feature-rich, simple calculator built with Python and Tkinter. This calculator supports advanced mathematical operations, memory functions, history export, and more.
 
-# MacOs
-1. Buka terminal.
-2. Jalankan perintah berikut:
-- brew install python-tk
+## Features
+- Basic arithmetic operations (+, -, *, /, %).
+- Advanced functions: square root, trigonometric functions (sin, cos, tan), logarithms, factorial.
+- Memory operations (M+, M-, MR, MC).
+- Undo/Redo functionality.
+- Dark/Light theme toggle.
+- Export calculation history to `.txt` or `.csv`.
+- Precision control for decimal places.
+- Debug mode for developers.
+- Angle mode toggle (radians/degrees).
+- Scientific mode toggle (extendable for future features).
 
-Jika Anda tidak memiliki Homebrew, Anda dapat menginstalnya di brew.sh.
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/natoritz/simple-calculator.git
+   cd simple-calculator
